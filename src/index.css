@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+@theme {
+}
+
+@layer components {
+  a {
+    @apply font-[Montserrat] font-semibold text-white text-xs;
+  }
+
+  body {
+    @apply bg-black;
+  }
+
+  .fontStyle {
+    @apply font-[Montserrat] font-semibold;
+  }
+  .logoStyle {
+    @apply h-10 object-contain bg-[#c4c4c4] p-2 drop-shadow-sm/50 border-none hover:bg-[#aeaaaa] hover:translate-x-1 hover:-translate-y-1 transition active:translate-y-0 active:-translate-x-0;
+  }
+  .headerStyle {
+    @apply font-[Montserrat] border-6 border-black px-16 py-6 tracking-[0.4em] font-bold text-[30px];
+  }
+  .subheadingStyle {
+    @apply font-[Montserrat] font-bold tracking-[0.1854em] text-[22px];
+  }
+}
