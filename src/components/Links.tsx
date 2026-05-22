@@ -14,24 +14,50 @@ const Links = () => {
           </button>
         </div>
         <div className="flex flex-row gap-x-6.25 justify-center">
-          <a href="https://www.facebook.com/nyiwint.htal.12/" target="_blank">
+          <a
+            href="https://www.facebook.com/nyiwint.htal.12/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fa-brands fa-square-facebook text-white text-[30px]"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/nyi-wint-htal-a05a05196/"
             target="_blank"
+            rel="noreferrer"
           >
             <i className="fa-brands fa-linkedin text-white text-[30px]"></i>
           </a>
-          <a href="https://www.instagram.com/nyiwinthtal/" target="_blank">
+          <a
+            href="https://www.instagram.com/nyiwinthtal/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fa-brands fa-instagram text-white text-[30px]"></i>
           </a>
-          <a href="mailto:nyiwinthtalnn@gmail.com"></a>
-          <i className="fa-regular fa-envelope text-white text-[30px]"></i>
+          <a href="mailto:nyiwinthtalnn@gmail.com">
+            <i className="fa-regular fa-envelope text-white text-[30px]"></i>
+          </a>
         </div>
         <p className="copyrightTextSyle">
           @2026 Nyi Wint Htal All Rights Reserved
         </p>
+        <a
+          className="linkStyle"
+          href="https://www.flaticon.com/free-icons/facebook"
+          title="facebook icons"
+        >
+          Facebook icons created by Hight Quality Icons - Flaticon
+        </a>
+        ;
+        <a
+          className="linkStyle mt-0"
+          href="https://www.flaticon.com/free-icons/github"
+          title="github icons"
+        >
+          Github icons created by Pixel perfect - Flaticon
+        </a>
+        ;
       </div>
     </div>
   );

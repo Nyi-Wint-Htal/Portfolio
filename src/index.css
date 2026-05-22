@@ -47,6 +47,9 @@ html {
   .iconStyle {
     @apply absolute size-13 opacity-5 -translate-y-2 -translate-x-8;
   }
+  .icon2Animation {
+    @apply hover:text-[#a4a4a4] duration-300 transition-all ease-out;
+  }
   .skillDescriptionStyle {
     @apply max-w-107.75 max-h-26.25 mt-2 font-light text-[14px] font-['Open_Sans'];
   }

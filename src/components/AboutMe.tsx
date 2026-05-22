@@ -22,9 +22,11 @@ const AboutMe = () => {
         <div className="flex flex-col items-center text-center">
           <h3 className="headerStyle">ABOUT ME</h3>
           <p className="font-[Open_Sans] font-normal text-[15px] w-190.75 h-11.75 mt-17.75">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos quasi
-            pariatur id! Praesentium dignissimos dolorum aliquam, sapiente
-            reiciendis architecto nobis voluptas odit sunt, porro labore
+            I'm Phoenix, a Computer Science student passionate about web
+            development, programming, and creating interactive digital
+            experiences. Currently learning JavaScript, TypeScript, React, and
+            modern frontend technologies while building projects to improve my
+            skills every day.
           </p>
           <h6 className="border-r-2 border-l-2 py-0.5 px-10 font-semibold text-[15px] mt-16.75">
             EXPLORE
@@ -35,18 +37,18 @@ const AboutMe = () => {
           <SkillCard
             Icon={PencilRulerIcon}
             subheading="DESIGN"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero expedita in fugit cumque placeat quod sit? Officiis"
+            description="Creating clean and modern user interfaces with a focus on simplicity, responsiveness, and user experience."
           />
           <SkillCard
             Icon={WrenchIcon}
             subheading="DEVELOPMENT"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero expedita in fugit cumque placeat quod sit? Officiis"
+            description="Building interactive web applications using JavaScript, TypeScript, React, HTML, and CSS while continuously improving my coding skills."
           />
           <div className="col-span-2 mx-auto w-1/2">
             <SkillCard
               Icon={MonitorCogIcon}
               subheading="MAINTENANCE"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero expedita in fugit cumque placeat quod sit? Officiis"
+              description="Improving, debugging, and maintaining projects to ensure smooth performance, clean code, and better user experience."
             />
           </div>
         </div>

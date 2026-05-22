@@ -16,15 +16,24 @@ const Home = () => {
             </h5>
           </div>
           <div className="flex gap-5 ml-40">
-            <a href="https://www.facebook.com/nyiwint.htal.12/" target="_blank">
+            <a
+              href="https://www.facebook.com/nyiwint.htal.12/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={facebookLogo} alt="" className="logoStyle" />
             </a>
-            <a href="https://github.com/Nyi-Wint-Htal" target="_blank">
+            <a
+              href="https://github.com/Nyi-Wint-Htal"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={githubLogo} alt="" className="logoStyle" />
             </a>
             <a
               href="https://www.linkedin.com/in/nyi-wint-htal-a05a05196/"
               target="_blank"
+              rel="noreferrer"
             >
               <img src={linkedinLogo} alt="" className="logoStyle" />
             </a>
