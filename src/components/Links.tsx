@@ -42,22 +42,6 @@ const Links = () => {
         <p className="copyrightTextSyle">
           @2026 Nyi Wint Htal All Rights Reserved
         </p>
-        <a
-          className="linkStyle"
-          href="https://www.flaticon.com/free-icons/facebook"
-          title="facebook icons"
-        >
-          Facebook icons created by Hight Quality Icons - Flaticon
-        </a>
-        ;
-        <a
-          className="linkStyle mt-0"
-          href="https://www.flaticon.com/free-icons/github"
-          title="github icons"
-        >
-          Github icons created by Pixel perfect - Flaticon
-        </a>
-        ;
       </div>
     </div>
   );
