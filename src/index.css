@@ -17,6 +17,10 @@ html {
     @apply bg-black;
   }
 
+  .backgroundStyle {
+    @apply bg-[linear-gradient(102deg,#d7d7d7_0_43%,#000_43%_100%)];
+  }
+
   .fontStyle {
     @apply font-[Montserrat] font-semibold;
   }

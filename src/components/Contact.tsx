@@ -14,23 +14,28 @@ function Contact() {
 
           <form className="flex flex-col items-center text-center mt-20">
             <input
+              aria-label="Input Name"
               required
               type="text"
               className="inputFieldStyle"
               placeholder="ENTER YOUR NAME*"
             />
             <input
+              aria-label="Input Email"
               required
               type="email"
               className="inputFieldStyle"
               placeholder="ENTER YOUR EMAIL*"
             />
             <input
+              aria-label="Input Phone Number"
+              required
               type="tel"
               className="inputFieldStyle"
               placeholder="PHONE NUMBER"
             />
             <textarea
+              aria-label="Input your message"
               className="inputFieldStyle pb-37.75 pt-5"
               placeholder="YOUR MESSAGE*"
             ></textarea>

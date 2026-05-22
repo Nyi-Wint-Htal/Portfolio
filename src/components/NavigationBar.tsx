@@ -3,7 +3,7 @@ import logoPng from "../assets/logo.png";
 const NavigationBar = () => {
   return (
     <section id="nav-bar">
-      <div className="flex justify-around mt-10">
+      <div className="flex justify-around pt-10">
         <div>
           <img
             src={logoPng}
