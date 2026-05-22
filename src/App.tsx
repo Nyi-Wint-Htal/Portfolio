@@ -2,6 +2,8 @@ import Home from "./components/Home";
 import NavigationBar from "./components/NavigationBar";
 import bgPng from "./assets/bg.png";
 import AboutMe from "./components/AboutMe";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">
   Facebook icons created by Hight Quality Icons - Flaticon
 </a>;
@@ -21,6 +23,8 @@ function App() {
         <NavigationBar />
         <Home />
         <AboutMe />
+        <Portfolio />
+        <Contact />
       </div>
     </div>
   );

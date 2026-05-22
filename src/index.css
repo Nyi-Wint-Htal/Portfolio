@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap");
 @import "tailwindcss";
 
 html {
@@ -28,5 +28,23 @@ html {
   }
   .subheadingStyle {
     @apply font-[Montserrat] font-bold tracking-[0.1854em] text-[22px];
+  }
+  .subheading2Style {
+    @apply font-[Montserrat] tracking-[0.4em] font-bold text-[30px] ml-8 h-18.5 mt-19.75;
+  }
+  .inactiveTabStyle {
+    @apply text-[#7C7C7C] font-[Montserrat] font-semibold text-[14px] pt-3.75 border-b-2 border-[#AAAAAA];
+  }
+  .activeTabStyle {
+    @apply text-[#FFFBFB] font-[Montserrat] font-semibold text-[14px] pt-3.75 border-b-2 border-[#FFFFFF];
+  }
+  .iconStyle {
+    @apply absolute size-13 opacity-5 -translate-y-2 -translate-x-8;
+  }
+  .skillDescriptionStyle {
+    @apply max-w-107.75 max-h-26.25 mt-2 font-light text-[14px] font-['Open_Sans'];
+  }
+  .inputFieldStyle {
+    @apply font-[Montserrat] font-bold text-[14px] tracking-[0.04em] text-[#8b8b8b] border-b-[5px] border-l-[5px] border-black pl-6.5 px-3.5 pr-108 h-11.75 mt-13.25;
   }
 }

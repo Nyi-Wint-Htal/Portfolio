@@ -14,10 +14,10 @@ const NavigationBar = () => {
         <a href="#about-me">
           <h4>About me</h4>
         </a>
-        <a href="">
+        <a href="#skills">
           <h4>Skills</h4>
         </a>
-        <a href="">
+        <a href="#portfolio">
           <h4>Portfolio</h4>
         </a>
         <a
