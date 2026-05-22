@@ -3,13 +3,9 @@ import logoPng from "../assets/logo.png";
 const NavigationBar = () => {
   return (
     <section id="nav-bar">
-      <div className="flex justify-around pt-10">
+      <div className="flex justify-around pt-10 -mx-30">
         <div>
-          <img
-            src={logoPng}
-            alt=""
-            className="w-18 -translate-x-20 translate-y-3"
-          />
+          <img src={logoPng} alt="" className="w-23" />
         </div>
         <div className="flex gap-18 justify-center items-center">
           <a href="#about-me" className="linkStyle">
