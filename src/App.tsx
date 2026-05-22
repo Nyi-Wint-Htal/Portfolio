@@ -4,6 +4,7 @@ import bgPng from "./assets/bg.png";
 import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import Links from "./components/Links";
 <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">
   Facebook icons created by Hight Quality Icons - Flaticon
 </a>;
@@ -13,7 +14,7 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div>
+    <div id="main">
       <img
         src={bgPng}
         alt=""
@@ -25,6 +26,7 @@ function App() {
         <AboutMe />
         <Portfolio />
         <Contact />
+        <Links />
       </div>
     </div>
   );

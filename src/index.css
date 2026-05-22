@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Nunito:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap");
 @import "tailwindcss";
 
 html {
@@ -9,8 +9,8 @@ html {
 }
 
 @layer components {
-  a {
-    @apply font-[Montserrat] font-semibold text-white text-xs;
+  .linkStyle {
+    @apply font-[Montserrat] font-semibold text-white text-xs hover:underline transition-all duration-300 ease-out hover:text-sm;
   }
 
   body {
@@ -21,7 +21,7 @@ html {
     @apply font-[Montserrat] font-semibold;
   }
   .logoStyle {
-    @apply h-10 object-contain bg-[#c4c4c4] p-2 drop-shadow-sm/50 border-none hover:bg-[#aeaaaa] hover:translate-x-1 hover:-translate-y-1 transition active:translate-y-0 active:translate-x-0;
+    @apply h-10 object-contain bg-[#c4c4c4] p-2 drop-shadow-sm/50 border-none hover:bg-[#aeaaaa] hover:translate-x-1 hover:-translate-y-1 transition-all active:translate-y-0 active:translate-x-0 duration-300 ease-out;
   }
   .headerStyle {
     @apply font-[Montserrat] border-6 border-black px-16 py-6 tracking-[0.4em] font-bold text-[30px];
@@ -31,6 +31,12 @@ html {
   }
   .subheading2Style {
     @apply font-[Montserrat] tracking-[0.4em] font-bold text-[30px] ml-8 h-18.5 mt-19.75;
+  }
+  .copyrightTextSyle {
+    @apply font-[Nunito] text-[18px] text-white;
+  }
+  .submitInput {
+    @apply font-[Montserrat] border-r-2 border-l-2 py-3.5 px-15.5 font-bold text-[16px] w-49.25 h-11.25 uppercase mt-15.5 hover:text-[20px] transition-all duration-300 ease-out hover:w-50.25 hover:px-11 hover:py-0 hover:underline hover:cursor-pointer;
   }
   .inactiveTabStyle {
     @apply text-[#7C7C7C] font-[Montserrat] font-semibold text-[14px] pt-3.75 border-b-2 border-[#AAAAAA];
