@@ -1,7 +1,7 @@
 const Links = () => {
   return (
-    <div className="h-81.25">
-      <div className="flex gap-y-11 flex-col items-center justify-center text-center pt-17">
+    <div className="bg-black">
+      <div className="flex flex-col items-center justify-center gap-y-9 px-5 py-14 text-center md:gap-y-11 md:py-17">
         <div>
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
