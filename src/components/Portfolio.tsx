@@ -1,7 +1,7 @@
 import { useState } from "react";
-import weather from "../assets/project-1.png";
-import calculator from "../assets/project-2.png";
-import todolist from "../assets/project-3.png";
+import weather from "../assets/project-2.png";
+import calculator from "../assets/project-3.png";
+import todolist from "../assets/project-1.png";
 import bg2 from "../assets/bg2.png";
 
 type Tab = "all" | "coded" | "designed";
@@ -67,17 +67,15 @@ const Portfolio = () => {
       <div className="mt-8 bg-[#1A1A1A]">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {filteredProjects.map((project, i = 0) => (
-            <a
-              href={project.link}
-              key={i}
-              className="aspect-4/3 overflow-hidden"
-            >
-              <img
-                src={project.image}
-                alt={project.title}
-                className="h-full w-full object-cover object-center overflow-y-hidden"
-              />
-            </a>
+            <div key={i} className="aspect-4/3 overflow-hidden">
+              <a href={project.link}>
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="h-full w-full object-cover object-center overflow-y-hidden"
+                />
+              </a>
+            </div>
           ))}
         </div>
       </div>
