@@ -34,14 +34,6 @@ Through this project, I learned:
 * Organizing project files
 * Using Git and GitHub for version control
 
-## Future Improvements
-
-* Improve mobile responsiveness
-* Add animations and transitions
-* Improve accessibility
-* Refactor code structure
-* Add dark mode support
-
 ## Live Demo
 
 (https://portfolio-xi-plum-85.vercel.app/)
